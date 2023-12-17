@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pet-crawler"
+version = "0.1.0"
+description = "Data crawler attempting to seek adoption data for pets across the web"
+authors = ["Anthony Andras <anthony.andras@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+autoflake = "^2.2.1"
+bpython = "^0.24"
+pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
+black = "^23.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

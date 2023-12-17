@@ -1,6 +1,6 @@
 # pet-crawler
 
-The Pet Crawler applications was intended to be a poor person's data feed for collecting adoptable
+The Pet Crawler application was intended to be a poor person's data feed for collecting adoptable
 pet data across the web. This is the first iteration of a data ingestion component for a larger
 "pet" project of mine. As the project evolves, partnerships might form and the need for a crawler
 to extract this data may not be needed. Additionally, it should be mentioned that this approach
