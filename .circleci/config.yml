@@ -6,7 +6,6 @@ jobs:
       - image: cimg/python:3.12.1
     steps:
       - checkout
-      - run: python -m pipx install poetry
       - run: poetry install
       - run: poetry run pytest ./
 workflows:
